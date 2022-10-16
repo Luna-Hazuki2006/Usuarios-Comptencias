@@ -35,7 +35,6 @@ C:\Users\d\source\repos\Usuarios\Usuarios_Competencias\Usuarios_Competencias\bin
 C:\Users\d\source\repos\Usuarios\Usuarios_Competencias\Usuarios_Competencias\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\d\source\repos\Usuarios\Usuarios_Competencias\Usuarios_Competencias\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\d\source\repos\Usuarios\Usuarios_Competencias\Usuarios_Competencias\obj\Debug\net6.0-windows\Usuarios_Competencias.csproj.AssemblyReference.cache
-C:\Users\d\source\repos\Usuarios\Usuarios_Competencias\Usuarios_Competencias\obj\Debug\net6.0-windows\Usuarios_Competencias.Form1.resources
 C:\Users\d\source\repos\Usuarios\Usuarios_Competencias\Usuarios_Competencias\obj\Debug\net6.0-windows\Usuarios_Competencias.csproj.GenerateResource.cache
 C:\Users\d\source\repos\Usuarios\Usuarios_Competencias\Usuarios_Competencias\obj\Debug\net6.0-windows\Usuarios_Competencias.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\d\source\repos\Usuarios\Usuarios_Competencias\Usuarios_Competencias\obj\Debug\net6.0-windows\Usuarios_Competencias.AssemblyInfoInputs.cache
@@ -48,3 +47,4 @@ C:\Users\d\source\repos\Usuarios\Usuarios_Competencias\Usuarios_Competencias\obj
 C:\Users\d\source\repos\Usuarios\Usuarios_Competencias\Usuarios_Competencias\obj\Debug\net6.0-windows\Usuarios_Competencias.genruntimeconfig.cache
 C:\Users\d\source\repos\Usuarios\Usuarios_Competencias\Usuarios_Competencias\obj\Debug\net6.0-windows\ref\Usuarios_Competencias.dll
 C:\Users\d\source\repos\Usuarios\Usuarios_Competencias\Usuarios_Competencias\obj\Debug\net6.0-windows\Usuarios_Competencias.Vista.Lista.resources
+C:\Users\d\source\repos\Usuarios\Usuarios_Competencias\Usuarios_Competencias\obj\Debug\net6.0-windows\Usuarios_Competencias.Vista.Unico.resources

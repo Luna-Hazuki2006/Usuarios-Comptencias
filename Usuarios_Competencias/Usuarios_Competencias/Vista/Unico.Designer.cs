@@ -29,25 +29,25 @@
         private void InitializeComponent()
         {
             this.tableLayoutPanelTodo = new System.Windows.Forms.TableLayoutPanel();
+            this.buttonGuardar = new System.Windows.Forms.Button();
+            this.textBoxTelefono = new System.Windows.Forms.TextBox();
+            this.textBoxDireccion = new System.Windows.Forms.TextBox();
+            this.textBoxApellidos = new System.Windows.Forms.TextBox();
+            this.textBoxNombres = new System.Windows.Forms.TextBox();
             this.labelCedula = new System.Windows.Forms.Label();
             this.labelNombres = new System.Windows.Forms.Label();
             this.labelApellidos = new System.Windows.Forms.Label();
             this.labelDireccion = new System.Windows.Forms.Label();
             this.labelTelefono = new System.Windows.Forms.Label();
             this.labelEmail = new System.Windows.Forms.Label();
-            this.labelFecha = new System.Windows.Forms.Label();
             this.labelEstado = new System.Windows.Forms.Label();
             this.textBoxCedula = new System.Windows.Forms.TextBox();
-            this.textBoxNombres = new System.Windows.Forms.TextBox();
-            this.textBoxApellidos = new System.Windows.Forms.TextBox();
-            this.textBoxDireccion = new System.Windows.Forms.TextBox();
-            this.textBoxTelefono = new System.Windows.Forms.TextBox();
             this.textBoxEmail = new System.Windows.Forms.TextBox();
+            this.labelFecha = new System.Windows.Forms.Label();
             this.dateTimePickerFecha = new System.Windows.Forms.DateTimePicker();
             this.comboBoxEstado = new System.Windows.Forms.ComboBox();
             this.buttonSalir = new System.Windows.Forms.Button();
             this.buttonLimpiar = new System.Windows.Forms.Button();
-            this.buttonGuardar = new System.Windows.Forms.Button();
             this.tableLayoutPanelTodo.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -91,6 +91,57 @@
             this.tableLayoutPanelTodo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
             this.tableLayoutPanelTodo.Size = new System.Drawing.Size(744, 339);
             this.tableLayoutPanelTodo.TabIndex = 0;
+            // 
+            // buttonGuardar
+            // 
+            this.buttonGuardar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.buttonGuardar.BackColor = System.Drawing.Color.Lavender;
+            this.buttonGuardar.Location = new System.Drawing.Point(536, 299);
+            this.buttonGuardar.Name = "buttonGuardar";
+            this.buttonGuardar.Size = new System.Drawing.Size(116, 37);
+            this.buttonGuardar.TabIndex = 18;
+            this.buttonGuardar.Text = "Guardar";
+            this.buttonGuardar.UseVisualStyleBackColor = false;
+            // 
+            // textBoxTelefono
+            // 
+            this.textBoxTelefono.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxTelefono.BackColor = System.Drawing.Color.SeaShell;
+            this.tableLayoutPanelTodo.SetColumnSpan(this.textBoxTelefono, 2);
+            this.textBoxTelefono.Location = new System.Drawing.Point(151, 153);
+            this.textBoxTelefono.Name = "textBoxTelefono";
+            this.textBoxTelefono.Size = new System.Drawing.Size(590, 27);
+            this.textBoxTelefono.TabIndex = 12;
+            // 
+            // textBoxDireccion
+            // 
+            this.textBoxDireccion.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxDireccion.BackColor = System.Drawing.Color.SeaShell;
+            this.tableLayoutPanelTodo.SetColumnSpan(this.textBoxDireccion, 2);
+            this.textBoxDireccion.Location = new System.Drawing.Point(151, 116);
+            this.textBoxDireccion.Name = "textBoxDireccion";
+            this.textBoxDireccion.Size = new System.Drawing.Size(590, 27);
+            this.textBoxDireccion.TabIndex = 11;
+            // 
+            // textBoxApellidos
+            // 
+            this.textBoxApellidos.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxApellidos.BackColor = System.Drawing.Color.SeaShell;
+            this.tableLayoutPanelTodo.SetColumnSpan(this.textBoxApellidos, 2);
+            this.textBoxApellidos.Location = new System.Drawing.Point(151, 79);
+            this.textBoxApellidos.Name = "textBoxApellidos";
+            this.textBoxApellidos.Size = new System.Drawing.Size(590, 27);
+            this.textBoxApellidos.TabIndex = 10;
+            // 
+            // textBoxNombres
+            // 
+            this.textBoxNombres.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxNombres.BackColor = System.Drawing.Color.SeaShell;
+            this.tableLayoutPanelTodo.SetColumnSpan(this.textBoxNombres, 2);
+            this.textBoxNombres.Location = new System.Drawing.Point(151, 42);
+            this.textBoxNombres.Name = "textBoxNombres";
+            this.textBoxNombres.Size = new System.Drawing.Size(590, 27);
+            this.textBoxNombres.TabIndex = 9;
             // 
             // labelCedula
             // 
@@ -152,16 +203,6 @@
             this.labelEmail.TabIndex = 5;
             this.labelEmail.Text = "Email:";
             // 
-            // labelFecha
-            // 
-            this.labelFecha.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.labelFecha.AutoSize = true;
-            this.labelFecha.Location = new System.Drawing.Point(12, 230);
-            this.labelFecha.Name = "labelFecha";
-            this.labelFecha.Size = new System.Drawing.Size(133, 20);
-            this.labelFecha.TabIndex = 6;
-            this.labelFecha.Text = "Fecha de ingreso:";
-            // 
             // labelEstado
             // 
             this.labelEstado.Anchor = System.Windows.Forms.AnchorStyles.Right;
@@ -182,46 +223,6 @@
             this.textBoxCedula.Size = new System.Drawing.Size(590, 27);
             this.textBoxCedula.TabIndex = 8;
             // 
-            // textBoxNombres
-            // 
-            this.textBoxNombres.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxNombres.BackColor = System.Drawing.Color.SeaShell;
-            this.tableLayoutPanelTodo.SetColumnSpan(this.textBoxNombres, 2);
-            this.textBoxNombres.Location = new System.Drawing.Point(151, 42);
-            this.textBoxNombres.Name = "textBoxNombres";
-            this.textBoxNombres.Size = new System.Drawing.Size(590, 27);
-            this.textBoxNombres.TabIndex = 9;
-            // 
-            // textBoxApellidos
-            // 
-            this.textBoxApellidos.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxApellidos.BackColor = System.Drawing.Color.SeaShell;
-            this.tableLayoutPanelTodo.SetColumnSpan(this.textBoxApellidos, 2);
-            this.textBoxApellidos.Location = new System.Drawing.Point(151, 79);
-            this.textBoxApellidos.Name = "textBoxApellidos";
-            this.textBoxApellidos.Size = new System.Drawing.Size(590, 27);
-            this.textBoxApellidos.TabIndex = 10;
-            // 
-            // textBoxDireccion
-            // 
-            this.textBoxDireccion.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxDireccion.BackColor = System.Drawing.Color.SeaShell;
-            this.tableLayoutPanelTodo.SetColumnSpan(this.textBoxDireccion, 2);
-            this.textBoxDireccion.Location = new System.Drawing.Point(151, 116);
-            this.textBoxDireccion.Name = "textBoxDireccion";
-            this.textBoxDireccion.Size = new System.Drawing.Size(590, 27);
-            this.textBoxDireccion.TabIndex = 11;
-            // 
-            // textBoxTelefono
-            // 
-            this.textBoxTelefono.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxTelefono.BackColor = System.Drawing.Color.SeaShell;
-            this.tableLayoutPanelTodo.SetColumnSpan(this.textBoxTelefono, 2);
-            this.textBoxTelefono.Location = new System.Drawing.Point(151, 153);
-            this.textBoxTelefono.Name = "textBoxTelefono";
-            this.textBoxTelefono.Size = new System.Drawing.Size(590, 27);
-            this.textBoxTelefono.TabIndex = 12;
-            // 
             // textBoxEmail
             // 
             this.textBoxEmail.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
@@ -232,11 +233,21 @@
             this.textBoxEmail.Size = new System.Drawing.Size(590, 27);
             this.textBoxEmail.TabIndex = 13;
             // 
+            // labelFecha
+            // 
+            this.labelFecha.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.labelFecha.AutoSize = true;
+            this.labelFecha.Location = new System.Drawing.Point(12, 230);
+            this.labelFecha.Name = "labelFecha";
+            this.labelFecha.Size = new System.Drawing.Size(133, 20);
+            this.labelFecha.TabIndex = 6;
+            this.labelFecha.Text = "Fecha de ingreso:";
+            // 
             // dateTimePickerFecha
             // 
             this.dateTimePickerFecha.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanelTodo.SetColumnSpan(this.dateTimePickerFecha, 2);
-            this.dateTimePickerFecha.Location = new System.Drawing.Point(151, 229);
+            this.dateTimePickerFecha.Location = new System.Drawing.Point(151, 227);
             this.dateTimePickerFecha.Name = "dateTimePickerFecha";
             this.dateTimePickerFecha.Size = new System.Drawing.Size(590, 27);
             this.dateTimePickerFecha.TabIndex = 14;
@@ -253,7 +264,7 @@
             "De vacaciones",
             "De permiso",
             "Jubilado"});
-            this.comboBoxEstado.Location = new System.Drawing.Point(151, 263);
+            this.comboBoxEstado.Location = new System.Drawing.Point(151, 266);
             this.comboBoxEstado.Name = "comboBoxEstado";
             this.comboBoxEstado.Size = new System.Drawing.Size(590, 28);
             this.comboBoxEstado.TabIndex = 15;
@@ -280,17 +291,6 @@
             this.buttonLimpiar.Text = "Limpiar";
             this.buttonLimpiar.UseVisualStyleBackColor = false;
             // 
-            // buttonGuardar
-            // 
-            this.buttonGuardar.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.buttonGuardar.BackColor = System.Drawing.Color.Lavender;
-            this.buttonGuardar.Location = new System.Drawing.Point(536, 299);
-            this.buttonGuardar.Name = "buttonGuardar";
-            this.buttonGuardar.Size = new System.Drawing.Size(116, 37);
-            this.buttonGuardar.TabIndex = 18;
-            this.buttonGuardar.Text = "Guardar";
-            this.buttonGuardar.UseVisualStyleBackColor = false;
-            // 
             // Unico
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
@@ -299,7 +299,7 @@
             this.ClientSize = new System.Drawing.Size(744, 339);
             this.Controls.Add(this.tableLayoutPanelTodo);
             this.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Unico";
             this.Text = "Unico";
             this.tableLayoutPanelTodo.ResumeLayout(false);

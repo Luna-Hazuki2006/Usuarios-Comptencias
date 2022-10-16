@@ -16,6 +16,17 @@ namespace Usuarios_Competencias.Modelo
         public string? Email { get; set; }
         public DateTime Fecha_Ingreso { get; set; }
         public char Estado { get; set; }
+        public string Estado_string()
+        {
+            return Estado switch
+            {
+                'a' => "Activo",
+                'v' => "De vacaciones",
+                'p' => "De permiso",
+                'j' => "Jubilado",
+                _ => "Indefinido",
+            };
+        }
 
     }
 }
