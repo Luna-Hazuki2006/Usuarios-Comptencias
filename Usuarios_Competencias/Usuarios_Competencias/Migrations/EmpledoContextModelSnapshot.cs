@@ -51,7 +51,7 @@ namespace Usuarios_Competencias.Migrations
 
                     b.HasKey("Cedula");
 
-                    b.ToTable("Empleados");
+                    b.ToTable("Empleados", (string)null);
                 });
 #pragma warning restore 612, 618
         }
