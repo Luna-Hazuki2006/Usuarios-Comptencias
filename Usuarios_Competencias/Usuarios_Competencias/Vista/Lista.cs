@@ -16,5 +16,55 @@ namespace Usuarios_Competencias.Vista
         {
             InitializeComponent();
         }
+
+        private void buttonSalir_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonCrear_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonConsultar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonModificar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonEliminar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxCedula_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxEstado_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxCedula_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+        }
+
+        private void textBoxEstado_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+        }
+
+        private void dataGridViewLista_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

@@ -45,6 +45,9 @@
             this.textBoxEmail = new System.Windows.Forms.TextBox();
             this.dateTimePickerFecha = new System.Windows.Forms.DateTimePicker();
             this.comboBoxEstado = new System.Windows.Forms.ComboBox();
+            this.buttonSalir = new System.Windows.Forms.Button();
+            this.buttonLimpiar = new System.Windows.Forms.Button();
+            this.buttonGuardar = new System.Windows.Forms.Button();
             this.tableLayoutPanelTodo.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,6 +57,7 @@
             this.tableLayoutPanelTodo.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanelTodo.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40F));
             this.tableLayoutPanelTodo.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40F));
+            this.tableLayoutPanelTodo.Controls.Add(this.buttonGuardar, 2, 8);
             this.tableLayoutPanelTodo.Controls.Add(this.textBoxTelefono, 1, 4);
             this.tableLayoutPanelTodo.Controls.Add(this.textBoxDireccion, 1, 3);
             this.tableLayoutPanelTodo.Controls.Add(this.textBoxApellidos, 1, 2);
@@ -70,6 +74,8 @@
             this.tableLayoutPanelTodo.Controls.Add(this.labelFecha, 0, 6);
             this.tableLayoutPanelTodo.Controls.Add(this.dateTimePickerFecha, 1, 6);
             this.tableLayoutPanelTodo.Controls.Add(this.comboBoxEstado, 1, 7);
+            this.tableLayoutPanelTodo.Controls.Add(this.buttonSalir, 0, 8);
+            this.tableLayoutPanelTodo.Controls.Add(this.buttonLimpiar, 1, 8);
             this.tableLayoutPanelTodo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanelTodo.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanelTodo.Name = "tableLayoutPanelTodo";
@@ -252,6 +258,39 @@
             this.comboBoxEstado.Size = new System.Drawing.Size(590, 28);
             this.comboBoxEstado.TabIndex = 15;
             // 
+            // buttonSalir
+            // 
+            this.buttonSalir.BackColor = System.Drawing.Color.Lavender;
+            this.buttonSalir.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.buttonSalir.Location = new System.Drawing.Point(3, 299);
+            this.buttonSalir.Name = "buttonSalir";
+            this.buttonSalir.Size = new System.Drawing.Size(142, 37);
+            this.buttonSalir.TabIndex = 16;
+            this.buttonSalir.Text = "Salir";
+            this.buttonSalir.UseVisualStyleBackColor = false;
+            // 
+            // buttonLimpiar
+            // 
+            this.buttonLimpiar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.buttonLimpiar.BackColor = System.Drawing.Color.Lavender;
+            this.buttonLimpiar.Location = new System.Drawing.Point(238, 299);
+            this.buttonLimpiar.Name = "buttonLimpiar";
+            this.buttonLimpiar.Size = new System.Drawing.Size(116, 37);
+            this.buttonLimpiar.TabIndex = 17;
+            this.buttonLimpiar.Text = "Limpiar";
+            this.buttonLimpiar.UseVisualStyleBackColor = false;
+            // 
+            // buttonGuardar
+            // 
+            this.buttonGuardar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.buttonGuardar.BackColor = System.Drawing.Color.Lavender;
+            this.buttonGuardar.Location = new System.Drawing.Point(536, 299);
+            this.buttonGuardar.Name = "buttonGuardar";
+            this.buttonGuardar.Size = new System.Drawing.Size(116, 37);
+            this.buttonGuardar.TabIndex = 18;
+            this.buttonGuardar.Text = "Guardar";
+            this.buttonGuardar.UseVisualStyleBackColor = false;
+            // 
             // Unico
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
@@ -288,5 +327,8 @@
         private TextBox textBoxEmail;
         private DateTimePicker dateTimePickerFecha;
         private ComboBox comboBoxEstado;
+        private Button buttonSalir;
+        private Button buttonLimpiar;
+        private Button buttonGuardar;
     }
 }
