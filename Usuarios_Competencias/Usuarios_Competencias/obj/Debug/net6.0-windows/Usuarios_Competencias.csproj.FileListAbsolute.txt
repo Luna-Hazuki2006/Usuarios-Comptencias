@@ -47,3 +47,4 @@ C:\Users\d\source\repos\Usuarios\Usuarios_Competencias\Usuarios_Competencias\obj
 C:\Users\d\source\repos\Usuarios\Usuarios_Competencias\Usuarios_Competencias\obj\Debug\net6.0-windows\Usuarios_Competencias.pdb
 C:\Users\d\source\repos\Usuarios\Usuarios_Competencias\Usuarios_Competencias\obj\Debug\net6.0-windows\Usuarios_Competencias.genruntimeconfig.cache
 C:\Users\d\source\repos\Usuarios\Usuarios_Competencias\Usuarios_Competencias\obj\Debug\net6.0-windows\ref\Usuarios_Competencias.dll
+C:\Users\d\source\repos\Usuarios\Usuarios_Competencias\Usuarios_Competencias\obj\Debug\net6.0-windows\Usuarios_Competencias.Vista.Lista.resources
