@@ -13,22 +13,67 @@ namespace Usuarios_Competencias.Controlador
         {
             try
             {
+                using (var db = new EmpledoContext())
+                {
 
+                };
             }
             catch (Exception e)
             {
-
+                Logger.LogError(e);
+                Mensajes.MensajeError($"Error inesperado: {e.Message}");
             }
         }
 
         public static Empleado? Consultar(string cedula)
         {
-
+            try
+            {
+                using (var db = new EmpledoContext())
+                {
+                    var empleado = db.Empleados.Find(cedula);
+                    return empleado;
+                };
+            }
+            catch (Exception e)
+            {
+                Logger.LogError(e);
+                Mensajes.MensajeError($"Error inesperado: {e.Message}");
+                return default;
+            }
         }
 
         public static void Modificar(Empleado empleado)
         {
+            try
+            {
+                using (var db = new EmpledoContext())
+                {
+                    db.Empleados.Update(empleado);
+                    db.SaveChanges();
+                };
+            }
+            catch (Exception e)
+            {
+                Logger.LogError(e);
+                Mensajes.MensajeError($"Error inesperado: {e.Message}");
+            }
+        }
 
+        public static void Eliminar(string cedula)
+        {
+            try
+            {
+                using (var db = new EmpledoContext())
+                {
+
+                };
+            }
+            catch (Exception e)
+            {
+                Logger.LogError(e);
+                Mensajes.MensajeError($"Errar inesperado: {e.Message}");
+            }
         }
     }
 }
