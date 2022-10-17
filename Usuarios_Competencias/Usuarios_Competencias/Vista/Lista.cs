@@ -19,12 +19,15 @@ namespace Usuarios_Competencias.Vista
 
         private void buttonSalir_Click(object sender, EventArgs e)
         {
-
+            Close();
         }
 
         private void buttonCrear_Click(object sender, EventArgs e)
         {
-
+            var unico = new Unico();
+            unico.Show();
+            unico.Inicio(this);
+            Hide();
         }
 
         private void buttonConsultar_Click(object sender, EventArgs e)

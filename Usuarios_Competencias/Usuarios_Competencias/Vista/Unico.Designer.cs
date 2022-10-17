@@ -102,6 +102,7 @@
             this.buttonGuardar.TabIndex = 18;
             this.buttonGuardar.Text = "Guardar";
             this.buttonGuardar.UseVisualStyleBackColor = false;
+            this.buttonGuardar.Click += new System.EventHandler(this.buttonGuardar_Click);
             // 
             // textBoxTelefono
             // 
@@ -279,6 +280,7 @@
             this.buttonSalir.TabIndex = 16;
             this.buttonSalir.Text = "Salir";
             this.buttonSalir.UseVisualStyleBackColor = false;
+            this.buttonSalir.Click += new System.EventHandler(this.buttonSalir_Click);
             // 
             // buttonLimpiar
             // 
@@ -290,6 +292,7 @@
             this.buttonLimpiar.TabIndex = 17;
             this.buttonLimpiar.Text = "Limpiar";
             this.buttonLimpiar.UseVisualStyleBackColor = false;
+            this.buttonLimpiar.Click += new System.EventHandler(this.buttonLimpiar_Click);
             // 
             // Unico
             // 
