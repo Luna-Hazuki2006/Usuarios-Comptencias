@@ -20,11 +20,17 @@ namespace Usuarios_Competencias.Vista
             InitializeComponent();
         }
 
-        public void Inicio(Form? i = null, Empleado? e = null)
+        public void Inicio(Form? i = null, Empleado? e = null, bool cambio = false)
         {
             dateTimePickerFecha.MaxDate = DateTime.Today;
             Origen = i;
             persona = e;
+            textBoxCedula.ReadOnly = cambio;
+            textBoxNombres.ReadOnly = cambio;
+            textBoxApellidos.ReadOnly = cambio;
+            textBoxDireccion.ReadOnly = cambio;
+            textBoxTelefono.ReadOnly = cambio;
+            textBoxEmail.ReadOnly = cambio;
         }
 
         private void buttonSalir_Click(object sender, EventArgs e)
@@ -45,7 +51,10 @@ namespace Usuarios_Competencias.Vista
 
         private void buttonGuardar_Click(object sender, EventArgs e)
         {
+            if (true)
+            {
 
+            }
         }
     }
 }
