@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rapido", "Rapido\Rapido.csproj", "{848FF1F9-7031-4646-8C89-C77DA80EB5C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{848FF1F9-7031-4646-8C89-C77DA80EB5C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{848FF1F9-7031-4646-8C89-C77DA80EB5C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{848FF1F9-7031-4646-8C89-C77DA80EB5C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{848FF1F9-7031-4646-8C89-C77DA80EB5C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0BE85BF-EECE-43EA-A257-4B12E3C8F8E5}
+	EndGlobalSection
+EndGlobal
